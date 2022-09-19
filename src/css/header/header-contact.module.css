@@ -1,0 +1,16 @@
+.headerContact {
+  flex: 0 0 200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 0;
+  
+}
+.headerContact i{
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .headerContact{
+    display: none;
+  }
+}

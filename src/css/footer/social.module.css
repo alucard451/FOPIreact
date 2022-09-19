@@ -1,0 +1,9 @@
+.footerLogo {
+  width: 90px;
+}
+.footerSocialLinks {
+  display: flex;
+}
+.footerSocialItem {
+  width: 35px;
+}

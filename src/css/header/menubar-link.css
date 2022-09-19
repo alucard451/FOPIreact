@@ -1,0 +1,59 @@
+.headerPagesLinks {
+  flex: 1 1 auto;
+  display: flex;
+}
+.headerPageItem {
+  padding: 5px;
+}
+.headerPagesLinks a {
+  color: #fff;
+}
+.menuBarContainer,
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .headerPagesLinks {
+    display: block;
+    width: 100%;
+    height: 0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf2f9;
+    overflow: hidden;
+  }
+  .headerPagesLinks a {
+    float: left;
+  }
+  .headerPagesLinks a:hover {
+    background-color: rgb(61, 59, 59);
+    color: white;
+  }
+  .headerPagesLinks a {
+    text-align: center;
+    float: none;
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .menuBar {
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 20px;
+  }
+  .menuBarContainer {
+    display: block;
+  }
+  .menuBar:hover {
+    cursor: pointer;
+  }
+  .menuBar i {
+    font-size: 22px;
+  }
+  :checked ~ #PagesLink {
+    height: auto;
+  }
+}

@@ -1,0 +1,17 @@
+:root {
+  --primary-1: #f03737;
+  --primary-2: #0056ac;
+  --secondary-1: #ecf2f9;
+  --secondary-2: #1b253a;
+  --secondary-3: #282525;
+  --secondary-4: rgb(56, 71, 90);
+  --secondary-5: #d7d7d7;
+  --secondary-6: #6582a8;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 479.98px;
+  --breakpoint-md: 767.98px;
+  --breakpoint-lg: 1023.98px;
+  --breakpoint-xl: 1199.98px;
+  --breakpoint-xxl: 1399.98px;
+}

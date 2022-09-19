@@ -1,0 +1,30 @@
+@import url("../general.css");
+.progressBarContainer {
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  border: 1px solid var(--secondary-5);
+  overflow: hidden;
+  position: relative;
+  background-color: var(--secondary-5);
+}
+.progressBarCompleted {
+  height: 100%;
+  display: block;
+  width: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+}
+.progressBarMarker {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-right: 2px solid green;
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px;
+}

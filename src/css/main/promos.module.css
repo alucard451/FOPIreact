@@ -1,0 +1,42 @@
+@import url('../general.css');
+.promo {
+  background: linear-gradient(
+      0deg,
+      rgba(206, 227, 252, 0.5),
+      rgba(206, 227, 252, 0.5)
+    ),
+    url("../../assets/images/antalaya.jpeg");
+  background-position: center;
+  background-size: 100% auto;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+.promoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+  color: var(--secondary-3);
+  padding: 0 160px;
+  margin: 3rem 0;
+}
+.promoDate {
+  color: var(--primary-1);
+  font-weight: 600;
+}
+.promoSubtext {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.promoCollect {
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-3);
+    font-size: 20px;
+  }
+.promoBtn {
+    margin-top: 30px;
+    display: flex;
+}

@@ -1,0 +1,23 @@
+.menuBarContainer,.hidden{
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .menuBar{
+    display: block;
+    position: absolute;
+    top: 21px;
+    right: 20px;
+  }
+  .menuBarContainer{
+    display: block;
+  }
+  .menuBar:hover {
+    cursor: pointer;
+  }
+  .menuBar i {
+    font-size: 22px;
+  }
+  :checked ~ .headerPagesLinks {
+    height: auto;
+  }
+}

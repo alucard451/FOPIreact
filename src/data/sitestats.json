@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Eventos organizados",
+    "id": "events",
+    "number": 9
+  },
+  {
+    "name": "Eventos en preparación",
+    "id": "events",
+    "number": 2
+  },
+  {
+    "name": "Cursos dictados",
+    "id": "cursos",
+    "number": 2
+  },
+  {
+    "name": "Colegios involucrados",
+    "id": "schools",
+    "number": "30+"
+  },
+  {
+    "name": "Estudiantes participantes",
+    "id": "students",
+    "number": "500+"
+  }
+]

@@ -1,0 +1,15 @@
+@import url('../general.css');
+.btn {
+    background-color: var(--primary-2);
+    border: 2px solid var(--primary-2);
+    padding: 20px 50px;
+    border-radius: 42px;
+    color: white;
+    font-size: 20px;
+  
+    
+  }
+  .btn:hover {
+    background-color: var(--secondary-1);
+    color: var(--primary-2);
+  }
